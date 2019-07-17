@@ -43,6 +43,7 @@ models:
   config:
     type: config
     label: Global Site Config
+    singleInstance: true
     fields:
       - type: enum
         name: palette
